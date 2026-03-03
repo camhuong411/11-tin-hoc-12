@@ -5,20 +5,20 @@
 }
 .header{
   flex: 15%;
-  background-color: lightgray;
+  background-color: lighpink;
    background-color:url("images/banner.png")center;
   
 }
 .menu{
   flex: 5%;
-   background-color: darkgray;
+   background-color: pink;
 }
 .menu a{
   padding: 15px 20px;
-  color: blue;
+  color: darkpink;
 }
 .menu hover{
-  background-color: lightgray;
+  background-color: lightpink;
   color:black;
 }
 .content{
@@ -33,7 +33,7 @@
 }
 .footer{
   flex: 10%;
-   background-color: lightgray;
+   background-color: lightpink;
 }
   
 h1 {
