@@ -5,9 +5,8 @@
 }
 .header{
   flex: 25%;
-  background-color: lighpink;
-   background: url("images/banner.png")center;
-  
+   background: url("images/banner.png")center/100%;
+aspect-ratio:6/1;
 }
 .menu{
   flex: 5%;
