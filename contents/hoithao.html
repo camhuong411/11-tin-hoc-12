@@ -2,28 +2,30 @@
   <head>
     <meta-charset="utf-8"> 
       <style>
-      h1 {color: darkpink; text-align: center;}
+      h1 {color: pink; text-align: center;}
    h2 {color:green;}
   </style>      
   </head>
   <body>
-    <h1><b> Đăng kí tham gia Hội thao</b></h1>
-<h2><b>1. Thông tin về người tham gia</b></h2>
-    <form action ="hoithao1.html" > 
+    <h1><b> ĐĂNG KÍ THAM GIA HỘI THAO</b></h1>
+<h2><b> 1. Thông tin về người tham gia</b></h2>
+    <form action ="hoithao1.html">
       <label>Họ và tên:<input type = "text"name="txtTen"</label><br>
-        <label>Địa chỉ email:<input type = "email"email="txtTen"</label><br>
+        <label>Địa chỉ email:<input type = "email"email="txtEmail"</label><br>
        Mật khẩu: <input type ="password" name = "txtMK">
-          <p>Lớp </p>
+         <h2><b> <p>2. Bạn học lớp: </p> </b></h2>
           <input type= "radio" name="optclass" value ="10"> Lớp 10
           <input type= "radio" name="optclass" value ="11"> Lớp 11
           <input type= "radio" name="optclass" value ="12"> Lớp 12
-          <h2><b>2. Tham dự môn</b></h2>
+          <h2><b>3. Bạn đăng kí môn:</b></h2>
           <input type="checkbox" name="chkbongban">Bóng bàn<br>
            <input type="checkbox" name="chkcaulong">Cầu lông<br>
            <input type="checkbox" name="chkcovua">Cờ vua<br>
-           <input type= "submit" name = "cmd" value = " Đăng kí">
+          <h2><b>3. Đóng góp ý kiến</b></h2>
+          <label> Ý kiến đóng góp (nếu có):<textarea name="txtComment" rows="6"cols="40"></textarea><br>
+              <input type= "submit" name = "cmd" value = " Đăng kí">
+           <input type= "submit" name = "cmd" value = " Hủy bỏ">
         <form action= "hoithao2.html>
-             <input type= "submit" name = "cmd" value = "Hủy bỏ">
         </form>
   </body>
 </html>
